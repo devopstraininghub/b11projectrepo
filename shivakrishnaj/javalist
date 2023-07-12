@@ -1,0 +1,22 @@
+public class ListPractice{
+
+
+
+   public static void main(String[]args)
+     {
+
+	List<String> animals=new ArrayList<>();
+	animals.add("dog");
+	animals.add("cat");
+	animals.add("cow");
+	animals.add("goat");
+	animals.add("tiger");
+	animals.add("lion");
+
+
+	System.out.println(animals);
+
+      }
+
+
+			 }	

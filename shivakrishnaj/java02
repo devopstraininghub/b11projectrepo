@@ -10,3 +10,22 @@ class Helloworld{
 
 
 		}
+
+/////
+
+interface Mobile{
+
+public videoCall();
+public audioCall();
+
+}
+
+class Smartphone implements Mobile
+
+{
+
+	void videoCall()
+	{
+	   sysout("This feature available only for smartphones");
+	}
+}

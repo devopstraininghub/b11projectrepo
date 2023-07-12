@@ -1,0 +1,9 @@
+Hi Team
+This is Durga poripireddy here.
+
+please find the sql Syntax below and do the needful on changes.
+
+Select Deartment_Id,Max(Salary)from employees where job_id like '%pep%' group by department_id,job_id Having max(salary)<50000 order by department_id;
+
+
+

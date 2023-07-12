@@ -1,0 +1,11 @@
+To create Repository  --- Git init
+To create user name --- git config --global user.name ________
+To create email Id ----git config --global user.email _________
+To move the code from Workspace to staging  ---- git add .
+To move the data from staging to local repository ---- git commit -m "msg"
+For tracking Status  ---- Git status
+To check the log ---- Git log
+To get the details of commit id  ----Git show Commit ID
+To clone the central Repository -- GIT clone repo code
+To push the code to central Repo  --- GIT push
+When u got error while pushing ---- GIT pull --rebase

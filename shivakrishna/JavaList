@@ -1,0 +1,27 @@
+public class ArrayListPractice{
+
+
+  public static void main(String[]args)
+    {
+
+	List<String> mobile=new ArrayList<>();
+	mobile.add("Nokia");
+	mobile.add("Apple");
+	mobile.add("Motorola");
+	mobile.add("Samsung");
+	mobile.add("Micromax");
+
+
+	mobile.set(1,"mi");
+	mobile.get(2);
+
+
+	System.out.println(mobile);
+     
+     }
+
+
+
+
+
+}

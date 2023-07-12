@@ -1,0 +1,9 @@
+pwd - Present working Directory
+Touch - To create files
+ls - To view the files/dir
+ll - long list view
+mkdir - to create directory
+rm -rf  - to delete
+clear  - to clear the screen
+cd - change directory 
+cd ..  - to come out from dir , 1 step back from dir

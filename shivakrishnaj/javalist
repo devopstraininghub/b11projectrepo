@@ -15,8 +15,21 @@ public class ListPractice{
 
 
 	System.out.println(animals);
+	
+
+
+
+
+	animals.add(3,"donkey");
+	animals.indexOf("cat");
+	animals.get(5);
+	animals.set(2,"elephant");
+	
+
+	System.out.println(animals);
 
       }
+
 
 
 			 }	

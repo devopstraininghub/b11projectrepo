@@ -1,0 +1,41 @@
+Hi 
+this angular input code.
+
+
+ <div #myform class="form-group">
+                <fieldset>
+                  <legend>Uesrname</legend>
+                  <input
+                    type ="text"
+                    class ="form-control"
+                    placeholder ="User name"
+                    name="uesrname"
+                    aria-describedby ="basic-addon1"
+                    aria-label ="uesrname"
+                    [(ngModel)] ="Username"
+                    #username="ngModel" 
+                    [class.is-invalid] ="username.invalid && username.touched"
+                    required            
+                  />
+                  <small class="text-danger" [class.d-none] ="username.valid || username.untouched">Username is required *</small>
+                </fieldset>
+               </div>
+
+<div class="form-group">
+                <fieldset>
+                  <legend>Full Name</legend>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name"
+                    name="fullname"
+                    aria-describedby="basic-addon1"
+                    aria-label="Fullname"
+                    [(ngModel)] ="Fullname"
+                    #fullname="ngModel"
+                    [class.is-invalid] ="fullname.invalid && fullname.touched"
+                    required
+                  />
+                  <small class="text-danger" [class.d-none] ="fullname.valid || fullname.untouched">Fullname is required *</small>
+                </fieldset>
+              </div>

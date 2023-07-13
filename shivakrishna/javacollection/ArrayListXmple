@@ -1,0 +1,55 @@
+package com.collections.java;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList al = new ArrayList<>();
+
+		al.add("computer");
+		al.add(89);
+		al.add(null);
+		al.add("mobile");
+
+		System.out.println(al);
+
+		ArrayList al1 = new ArrayList<>();
+
+		al1.add("Tata");
+		al1.add("BMW");
+		al1.add("Toyota");
+		al1.add("Tata punch");
+
+		al.addAll(al1);
+
+		System.out.println(al);
+
+		al.addAll(2, al1);
+
+		System.out.println(al);
+
+		al.remove(3);
+		al.set(3, "Benz");
+
+		System.out.println(al);
+
+		System.out.println(al.size());
+
+		boolean check = al.contains("Tata punch");
+
+		System.out.println(check);
+
+		Iterator itr = al.iterator();
+
+		while (itr.hasNext()) {
+			Object obj = itr.next();
+
+			System.out.println(obj);
+
+		}
+	}
+
+}

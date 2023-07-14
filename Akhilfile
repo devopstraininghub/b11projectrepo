@@ -1,0 +1,7 @@
+Hello! this is a SAS code.
+
+ID=001;
+Age=20
+Gender=M;
+output;
+run;

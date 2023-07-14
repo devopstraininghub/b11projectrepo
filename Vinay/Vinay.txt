@@ -1,0 +1,40 @@
+ Hi Every one,
+     this is Vinay from B11_Devops training Batch. 
+
+     Git Commands 
+
+    Tell Git who you are                          Command
+
+    Configure the author name       git config --global user.name"<username"
+
+    Configure the author email      git config --global user.email<email address>
+
+
+    Getting & Creating Projects                   Command
+
+    Initialized a local git Repository       git init
+
+    Create a local copy of the remot repo    git clone  repo HTTP or SSH Link
+
+    
+    Basic Snapshotting                             Command
+
+    Check status                               git status
+
+    add file to staging area                   git add .(to add all files ) or to add specific file name
+
+    Commit Changes                             git commit -m"<Commit mesasage>"
+
+    Remove a file(Or folder)                   git rm -r<file name>
+
+
+    Inspection &Comparison                         Command
+
+    View changes                                git log
+    
+    Vies Changes(details)                       git log --summary
+
+    View changes in one line(Briefly)           git log --oneline or
+                                                git log --pretty=oneline or
+						git log --pretty=short
+   
